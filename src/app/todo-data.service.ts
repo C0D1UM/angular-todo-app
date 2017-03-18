@@ -13,7 +13,7 @@ export class TodoDataService {
   // Simulate POST /todos
   createTodo(values: Object): number {
     const newId = ++this.lastId;
-    this.todos.set(newId, new Todo(values));
+    this.todos.set(newId, new Todo(Object.assign(values, {id: newId})));
     return newId;
   }
 
