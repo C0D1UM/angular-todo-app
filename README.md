@@ -2,6 +2,10 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.0-rc.2.
 
+## Screenshot
+<img width="340" alt="cursor_and_todoapp_and_1__pac_pac-mbp-2__ng__node_" src="https://cloud.githubusercontent.com/assets/618729/24073806/150ed6ea-0c30-11e7-9ab1-c2567052b496.png">
+
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
