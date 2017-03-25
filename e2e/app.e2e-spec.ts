@@ -8,7 +8,7 @@ describe('todo-app App', () => {
   });
 
   it('should display message saying app works', () => {
-    page.navigateTo();
-    expect(page.getParagraphText()).toEqual('app works!');
+    TodoAppPage.navigateTo();
+    expect(TodoAppPage.getParagraphText()).toEqual('app works!');
   });
 });
