@@ -25,15 +25,14 @@ export class TodoDataService {
   }
 
   // Simulate PUT /todos/:id
-  updateTodoById(id: number, values: Object = {}): Todo {
+  updateTodoById(id: number, values: Object): Todo {
     const todo = this.todos.get(id);
     if (todo === undefined)
-      // return null;
       throw new Error(`Todo ID: ${id} cannot be updated because it doesn't exist.`);
 
     const updatedTodo = new Todo(Object.assign(todo, values));
     this.todos.set(id, updatedTodo);
-    return updatedTodo
+    return updatedTodo;
   }
 
   // Simulate GET /todos
